@@ -37,7 +37,7 @@ function getAuthToken(string $requestMethod, int $time, string $accessKey, strin
  */
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     session_start();
-    echo file_get_contents('index.html');
+    echo file_get_contents('https://askiryp.github.io/clone1/');
 }
 
 /**
